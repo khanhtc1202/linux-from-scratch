@@ -16,7 +16,7 @@ Personal note to build owner linux distribution from scratch. This work follows 
         └── 01-new-partition.sh
 ```
 
-## Notes:
+## Notes
 
 Require `export LFS=/mnt/lfs` for OS building session.
 
