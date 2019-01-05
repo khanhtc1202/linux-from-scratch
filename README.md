@@ -23,4 +23,3 @@ Require `export LFS=/mnt/lfs` for OS building session.
 ## Sequel
 
 1. Prepare
-2. Packages
