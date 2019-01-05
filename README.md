@@ -11,3 +11,7 @@ Personal note to build owner linux distribution from scratch. This work follows 
 └── common
     └── scripts
 ```
+
+## Notes:
+
+Require `export LFS=/mnt/lfs` for OS building session.
