@@ -8,12 +8,18 @@ Personal note to build owner linux distribution from scratch. This work follows 
 .
 ├── README.md
 └── scripts
-    ├── packages
+    ├── prepare
+    │   ├── 00-version-check.sh
+    │   ├── 01-new-partition.sh
     │   ├── 02-packages-list.sh
+    │   ├── 03-tool-directories.sh
+    │   ├── 04-lfs-user.sh
+    │   ├── 05-setup-user-env.sh
     │   └── wget-list
-    └── prepare
-        ├── 00-version-check.sh
-        └── 01-new-partition.sh
+    └── temporary-system
+        ├── 06-checking-system-info.sh
+        ├── 07-binutils.sh
+        └── 08-gcc.sh
 ```
 
 ## Notes

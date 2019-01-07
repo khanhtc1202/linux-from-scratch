@@ -1,6 +1,6 @@
 #/bin/bash
 # GCC package contains the GNU compiler collection (include C & C++ compilers)
-tar -xf ../gcc-7.2.0.tar.xz
+tar -xf ./gcc-7.2.0.tar.xz
 cd gcc-7.2.0/
 # unzip depend of gcc
 tar -xf ../mpfr-3.1.5.tar.xz

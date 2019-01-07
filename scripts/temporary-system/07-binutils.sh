@@ -2,7 +2,7 @@
 # The Binutils package contains a linker, an assembler
 # and other tools for handling object files.
 # extract binutils source
-tar xvjf ./binutils-2.29.tar.bz2 --directory .
+tar xvjf ./binutils-2.29.tar.bz2
 cd binutils-2.29/
 # recomend build binutils in a dedicated build directory
 mkdir -v build
